@@ -5,11 +5,14 @@ body{
     font-family: 'Nunito', sans-serif;
     
 }
-section{
-    margin-bottom:50px;
+.container{
     margin-left:100px;
     margin-right:100px;
-    width:100%;
+    width:1180px;
+}
+section{
+    margin-bottom:50px;
+    
     
 }
 .orange-color{
@@ -20,20 +23,17 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(orange,tomato);
     text-decoration:none;
-    color:white;font-size:16px;
-    
+    color:white;font-size:16px; 
 }
 
-#stay-focused{
-    margin-top:0px;
-    
-}
+
 .d-flex{
     display:flex;
 }
 .stay-focused-left{
     width:40%;
-    margin-top:150px;
+    height:100px;
+    margin-top:150px;    
 }
 
 .stay-focused-right{
@@ -44,28 +44,44 @@ section{
     margin-left:90px;
     
 }
+.stay-focused-title{
+    border-left:2px solid tomato;
+    border-width: 4px;
+    padding-left:10px;
+}
+
 .stay-focused-title h1 {
     font-size: 50px;
     line-height: 40px;
+    
+}
+scroll-text{
+    .margin-top:10px;
+}
+#my-mission h1{
+    font-size:50px;
+    font-weight:700;
+    text-align:center;
 }
 .mission-single-box{
     width:300px;
     height:300px;;
-    background:lightblue;
+    background:rgb(241, 195, 203);
     border-radius: 10px;
-    padding:20px;
+    padding:30px;
     margin-right:25px;
+    text-align: justify;
     
+}
+
+.mission-single-box:nth-child(2){
+    
+    background-color:rgb(185, 225, 226);
+}
+.mission-single-box:last-child{
+    margin-right:0px;
+    background-color:	#ffe6e6;
 }
 .mission-single-box img{
     width:40%;
-}
-
-.mission-single-box:last-child{
-    margin-right:0px;
-    background-color:lightcyan;
-}
-.mission-single-box:nth-child(2){
-    
-    background-color:lightgray;
 }
