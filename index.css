@@ -3,6 +3,8 @@
 body{
     
     font-family: 'Nunito', sans-serif;
+    margin:0;
+    padding:0;
     
 }
 .container{
@@ -50,9 +52,7 @@ section{
     line-height: 40px;
     
 }
-scroll-text{
-    .margin-top:10px;
-}
+
 #my-mission h1{
     font-size:50px;
     font-weight:700;
@@ -177,7 +177,8 @@ scroll-text{
     width:60%;
     text-align:justify;
 }
-footer{
+.footer{
+    width:100%;
     font-size:30px;
     font-weight:800px;
     text-align:center;
